@@ -1,0 +1,27 @@
+img{
+    height:300px;
+    width:250px;
+    margin-top:100px;
+    border:solid;
+}
+body{
+    text-align:center;  
+    background: linear-gradient(to right, rgb(194, 229, 156), rgb(100, 179, 244));
+    background-image: url("screenshot (35).png");
+    
+    
+}
+button{
+    height:50px;
+    width:280px;
+
+    margin-top:50px;
+    font-size:20px;
+    font-weight:bold;
+    background-color: silver;
+    transition:transform.2s;
+}
+button:hover{
+    transform:scale(0.9);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
